@@ -1,6 +1,6 @@
 # brief-case
 
-## Visually hidden case formatting
+_Visually hidden case formatting_
 
 ### Getting started
 
