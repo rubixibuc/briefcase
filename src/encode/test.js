@@ -1,11 +1,11 @@
-import encode from './index'
-import { assert } from 'chai'
+import encode from "./index";
+import { assert } from "chai";
 
 describe("encode", () => {
   it("should encode single character correctly", () => {
     const result = encode("j");
 
-    assert.equal(result, "\u0012\u0013\u0013\u0013");
+    assert.equal(result, "\u200c\u200c\u200b\u200c\u200b\u200c\u200b");
   });
 
   it("should encode several characters correctly", () => {
@@ -13,7 +13,7 @@ describe("encode", () => {
 
     assert.equal(
       result,
-      "\u0012\u0013\u0013\u0013\u0016\u0012\u0013\u0011\u0013\u0016\u0012\u0014\u0013\u0011"
+      "\u200c\u200c\u200b\u200c\u200b\u200c\u200b\u200d\u200c\u200c\u200b\u200b\u200b\u200c\u200b\u200d\u200c\u200c\u200c\u200c\u200b\u200b\u200b"
     );
   });
 });
