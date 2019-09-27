@@ -1,5 +1,5 @@
 {
-  "name": "brief-case",
+  "name": "@rubixibuc/brief-case",
   "version": "0.0.0",
   "description": "Visually hidden case formatting",
   "main": "lib/index.js",
