@@ -1,4 +1,4 @@
-# brief-case
+# briefcase
 
 _Visually hidden case formatting_
 
@@ -7,13 +7,13 @@ _Visually hidden case formatting_
 #### Installation
 
 ```shell script
-npm i brief-case
+npm i @rubixibuc/briefcase
 ```
 
 #### Example
 
 ```ecmascript 6
-import { encode, decode } from 'brief-case'
+import { encode, decode } from '@rubixibuc/briefcase'
 
 // string encoded to non-printable characters while remaining parsable
 const encoded = encode('abc')
