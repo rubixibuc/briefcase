@@ -4,10 +4,10 @@
   "description": "Visually hidden case formatting",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src -d lib --ignore \"src/**/test.js\"",
-    "test": "mocha --require @babel/register \"src/**/*test.js\"",
-    "clean": "git clean -dxf",
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "clean": "git clean -dxf",
+    "test": "mocha --require @babel/register \"src/**/*test.js\"",
+    "build": "babel src -d lib --ignore \"src/**/test.js\"",
     "prepublishOnly": "npm run clean && npm ci && npm test && npm run build"
   },
   "repository": {
