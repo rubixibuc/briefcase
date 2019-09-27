@@ -15,7 +15,7 @@ npm i brief-case
 ```ecmascript 6
 import { encode, decode } from 'brief-case'
 
-// string encoded to non-printable character while remaining parsable
+// string encoded to non-printable characters while remaining parsable
 const encoded = encode('abc')
 const decoded = decode(encoded)
 
