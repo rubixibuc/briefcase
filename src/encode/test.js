@@ -1,5 +1,5 @@
-const encode = require("./index");
-const assert = require("chai").assert;
+import encode from './index'
+import { assert } from 'chai'
 
 describe("encode", () => {
   it("should encode single character correctly", () => {
