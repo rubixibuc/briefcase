@@ -1,4 +1,4 @@
-import table  from "../table";
+import table from "../table";
 import separator from "../separator";
 
 module.exports = string =>

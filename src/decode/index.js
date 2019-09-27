@@ -1,5 +1,5 @@
-import table from '../table'
-import separator from '../separator'
+import table from "../table";
+import separator from "../separator";
 
 const inverseTable = table.reduce(
   (accumulator, char, index) => ({ ...accumulator, [char]: index }),

@@ -1,6 +1,4 @@
-import encode from './encode'
-import decode from './decode'
+import encode from "./encode";
+import decode from "./decode";
 
-export {
-  encode, decode
-}
+export { encode, decode };
