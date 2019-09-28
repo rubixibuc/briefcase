@@ -15,7 +15,8 @@ npm i @rubixibuc/briefcase
 ```ecmascript 6
 import { encode, decode } from "@rubixibuc/briefcase"
 
-// passing anything other than a non-empty string to either `encoded` or `decoded` will return the same value back
+// passing anything other than a non-empty string
+// to either `encoded` or `decoded` will return the same value back
 
 // string encoded to non-printable characters while remaining parsable
 const encoded = encode("abc")
