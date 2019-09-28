@@ -7,7 +7,7 @@ const inverseTable = table.reduce(
   {}
 );
 
-module.exports = string =>
+export default string =>
   isNonEmptyString(string)
     ? Array.prototype.map
         .call(string.split(separator), char =>

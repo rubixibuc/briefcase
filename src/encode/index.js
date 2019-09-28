@@ -2,7 +2,7 @@ import table from "../table";
 import separator from "../separator";
 import isNonEmptyString from "../isNonEmptyString";
 
-module.exports = string =>
+export default string =>
   isNonEmptyString(string)
     ? Array.prototype.map
         .call(string, char =>
