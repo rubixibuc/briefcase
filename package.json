@@ -1,6 +1,6 @@
 {
   "name": "@rubixibuc/briefcase",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Visually hidden case formatting",
   "main": "lib/index.js",
   "scripts": {
