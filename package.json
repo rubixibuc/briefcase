@@ -19,6 +19,8 @@
     "case",
     "briefcase",
     "formatting",
+    "encoding",
+    "decoding",
     "non",
     "printable",
     "non-printable"
