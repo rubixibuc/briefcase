@@ -15,12 +15,12 @@ npm i @rubixibuc/briefcase
 ```ecmascript 6
 import { encode, decode } from "@rubixibuc/briefcase"
 
-// passing anything other than a non-empty string
-// to either encode() or decode() will return the same value back
-
-// string encoded to non-printable characters while remaining parsable
+// string encoded to zero width non-printable characters
 const encoded = encode("abc")
 const decoded = decode(encoded)
 
 // decoded === "abc"
 ```
+
+- `encode()` and `decode()` both return the passed value when given non-empty string
+- `decode()` only accepts output from `encode()` and will throw `new Error("encountered invalid character")` otherwise
