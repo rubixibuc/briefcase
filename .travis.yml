@@ -11,3 +11,5 @@ deploy:
     repo: rubixibuc/briefcase
     branch: master
   skip_cleanup: true
+after_success:
+  - npm run coveralls

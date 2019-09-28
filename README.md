@@ -1,4 +1,4 @@
-# briefcase
+# briefcase [![Build Status](https://travis-ci.org/rubixibuc/briefcase.svg?branch=master)](https://travis-ci.org/rubixibuc/briefcase)
 
 _Visually hidden case formatting_
 
