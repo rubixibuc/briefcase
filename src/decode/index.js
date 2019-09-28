@@ -14,7 +14,13 @@ module.exports = string =>
           String.fromCharCode(
             parseInt(
               Array.prototype.map
-                .call(char, char => inverseTable[char])
+                .call(char, char => {
+                  if (inverseTable[char] != null) {
+                    return inverseTable[char];
+                  } else {
+                    throw new Error("encountered invalid character");
+                  }
+                })
                 .join(""),
               table.length
             )

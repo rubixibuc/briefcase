@@ -84,9 +84,7 @@ describe("decode", () => {
     assert.equal(result, 1);
   });
 
-  it("should decode empty string into empty string", () => {
-    const result = decode("");
-
-    assert.equal(result, "");
+  it("should throw error on invalid string", () => {
+    assert.throws(() => decode("j"), "encountered invalid character");
   });
 });
