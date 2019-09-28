@@ -19,7 +19,10 @@
     "case",
     "briefcase",
     "formatting",
-    "caseing"
+    "caseing",
+    "non",
+    "printable",
+    "non-printable"
   ],
   "author": "rubixibuc",
   "license": "ISC",
