@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "8"
+deploy:
+  provider: npm
+  email: rubixibuc@gmail.com
+  api_key:
+    secure: cP73zju978352g+et+RPLDi0LtQ3z+ptbAt1ZPPXr1oesctzSN+crsr9GGzec+Bxoglxo87hzvuKj93gZyUQ+MXg47rYczBIDJNQcLsMIapQGDyj8eAo5vIiYr4HG5pri6xmAh0HDmdAO2nD2NVFZKasY2CdTIiTCA8qTkOuypQK/+ImmdAIDY368d3LeouuR4DtXQGGXwN39xLmmQMhNp+dhqwtibuL4pbem1X9xR0uqFMC23ymF2hFwDPiHgGxouXBCHY1e9KEYMZmlUjcgjLRQAC3Bnb4hCI2vqufzWKVfuFr7CX0d74o0sHQvNvXRltRMyUC5z8qiyrfv+0WJ/bX2F6jouZYXfC0ruRLJqPERlj5pIwfVL7ngIYlpGyi4WUcasDmyvfgcq4UwsHKYWD5Zk0YE3VcX04iyQuENw3Wh/IaJyX5rKemSCUHSMC8vmZhiSwd42ZvgQ+FA7Vgz6gw6NMpO5oA9fKkXAs2Y6JaQNFeSH6Fj/FjR2fP5DHil76RtdgGCxXBqbMMO/jOyDQrdIjnG8G29JeaIBb+G2KDWwj1unXPTIlDVr/8A3I/h/xDWeE66TAQE65WBJQ5D5SIMDejNOpuJUMcM17eapQuY2VpJk4H05JHq9KX6wCSNuJM3DAqV97/q4DvLIm6EJFuDMmD2tsNKy3KAYpOXW4=
+  on:
+    tags: true
+    repo: rubixibuc/briefcase
+  skip_cleanup: true
