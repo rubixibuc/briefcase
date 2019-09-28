@@ -24,4 +24,3 @@ const decoded = decode(encoded)
 
 // decoded === "abc"
 ```
-
