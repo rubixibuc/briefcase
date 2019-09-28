@@ -16,7 +16,7 @@ npm i @rubixibuc/briefcase
 import { encode, decode } from "@rubixibuc/briefcase"
 
 // passing anything other than a non-empty string
-// to either `encoded` or `decoded` will return the same value back
+// to either encode() or decode() will return the same value back
 
 // string encoded to non-printable characters while remaining parsable
 const encoded = encode("abc")
