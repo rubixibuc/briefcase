@@ -12,12 +12,12 @@ npm i @rubixibuc/briefcase
 
 #### Example
 
-```ecmascript 6
-import { encode, decode } from "@rubixibuc/briefcase"
+```js
+import { encode, decode } from "@rubixibuc/briefcase";
 
 // string encoded to zero width non-printable characters
-const encoded = encode("abc")
-const decoded = decode(encoded)
+const encoded = encode("abc");
+const decoded = decode(encoded);
 
 // decoded === "abc"
 ```
