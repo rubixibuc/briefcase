@@ -1,5 +1,6 @@
 import decode from "./index";
 import { assert } from "chai";
+import encode from "../encode";
 
 describe("decode", () => {
   it("should decode single character correctly", () => {
@@ -82,6 +83,12 @@ describe("decode", () => {
     const result = decode(1);
 
     assert.equal(result, 1);
+  });
+
+  it("should decode empty string into empty string", () => {
+    const result = decode("");
+
+    assert.equal(result, "");
   });
 
   it("should throw error on invalid string", () => {
