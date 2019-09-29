@@ -22,5 +22,5 @@ const decoded = decode(encoded)
 // decoded === "abc"
 ```
 
-- `encode()` and `decode()` both return the passed value when given non-empty string
+- `encode()` and `decode()` both return the passed value unchanged when given anything but non-empty string
 - `decode()` only accepts output from `encode()` and will throw `new Error("encountered invalid character")` otherwise
