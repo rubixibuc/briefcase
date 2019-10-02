@@ -1,6 +1,6 @@
-# briefcase 💼
-
 [![Build Status](https://travis-ci.org/rubixibuc/briefcase.svg?branch=master)](https://travis-ci.org/rubixibuc/briefcase) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/briefcase/badge.svg?branch=master)](https://coveralls.io/github/rubixibuc/briefcase?branch=master)
+
+# briefcase 💼
 
 _Visually hidden case formatting_
 
